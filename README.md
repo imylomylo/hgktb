@@ -4,6 +4,7 @@ heaps ghetto komodo transaction blaster - html5 game and nodejs web socket serve
 # tl;dr;
 - git clone 
 - cd nodejs
+- *IMPORTANT* change the send to address from `RSitGaknVxZrJ5n6kqKAjSXhoezteGXnpA` to one you own!!!!
 - change index.js `AGAMAUSER` and `AGAMAPASSWORD` to what is in your ~/.komodo/komodo.conf `rpcuser` and `rpcpassword` settings.
 - npm install
 - nodejs
