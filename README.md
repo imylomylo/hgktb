@@ -1,7 +1,25 @@
 # hgktb
 heaps ghetto komodo transaction blaster - html5 game and nodejs web socket server for really basic comms (like it's the 80s).
 
+# tl;dr;
+- git clone 
+- cd nodejs
+- change index.js `AGAMAUSER` and `AGAMAPASSWORD` to what is in your ~/.komodo/komodo.conf `rpcuser` and `rpcpassword` settings.
+- npm install
+- nodejs
+
+Then browse to <cloned repo>/kinvadors/index.html
+- space to shoot
+- arrows left and right
+- mobile has button onscreen
+  
+# Notes
+
 Fairly easy to abuse and requires some integration with firewalls, predefined transactions etc. to prevent abuse. Alternatively implement some JWT auth before loading.
+
+# Remote
+- Client side (game): Just change the game.js file connection from localhost to your ip address of installation.
+- Server side: change username/password and Asset Chain port number for rpc if not using KMD.
 
 # Shoot directly from Agama
 Only use this to test.
